@@ -1,0 +1,137 @@
+  @font-face {
+    font-family: rammstein;
+    src: url("/lesson5homework/fonts/rammstein.ttf");
+  }
+  @font-face {
+    font-family: secondfont;
+    src: url("/lesson5homework/fonts/Silkscreen-Regular.ttf");
+  }
+  @font-face {
+    font-family: horror;
+    src: url("/lesson5homework/fonts/Creepster-Regular.ttf")
+  }
+
+ html {
+    display: flex;
+    justify-content: center;
+ }
+  
+ body {
+  
+    width: 1400px;
+    
+ }
+
+header {
+   text-align: center;
+   background-color: rgba(254, 237, 237, 0.663);
+  
+}
+h3 {
+    font-family: rammstein;
+    font-size: 60px;
+    color: rgb(19, 1, 1);
+    padding-top:15px;
+}
+#headerimages {
+    width:200px;
+    height: 200px;
+}
+.headerpicturediv {
+    display: flex;
+    justify-content: center;
+}
+#headerp { 
+    color: rgb(101, 34, 34);
+    font-family: secondfont;
+    font-size: 25;
+
+}
+a {
+    font-family: secondfont;
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.maindiv {
+    display: flex;
+    justify-content: space-around;
+}
+main {
+    margin-top: 10px;
+    background-color: rgba(254, 237, 237, 0.663);
+}
+
+#mainpictures {
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2%;
+}
+
+.paragraphdiv {
+    display: flex;
+    justify-content: space-around;
+}
+p {
+    font-family: secondfont;
+    margin-right: 10px;
+}
+table {
+    border: dashed 2px rgb(78, 25, 25);
+    width: 350px; 
+    margin: 10px;
+    font-family: secondfont;
+    margin-right: 60;
+}
+table th {
+    border: dashed 2px rgb(78, 25, 25);
+    background-color: rgb(0, 0, 0);
+    color: rgb(195, 14, 14);
+}
+table td {
+    border: dashed 2px rgb(78, 25, 25);
+    background-color: rgb(212, 233, 253);
+}
+#longphoto {
+    width: 350px;
+    height: 450;
+    margin: 10px;
+}
+.footerdiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+footer {
+    background-color:rgba(254, 237, 237, 0.663) ;
+    margin-top: 10px;
+}
+#input {
+    background-color: rgb(230, 203, 203);
+    font-family: secondfont;
+    color: rgb(0, 0, 0);
+    border: dashed 5px black;
+    margin-right: 5px;
+    padding:10px;
+    color: rgb(155, 13, 13);
+    
+   
+}
+#button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(186, 13, 13);
+    font-family: secondfont;
+    border-radius: 10%;;
+    cursor: pointer;
+}
+#footerp {
+    text-align: center;
+}
+#audio {
+  border: dashed 2px black;
+ width:350px;
+ border-radius: 30%;
+}
