@@ -1,0 +1,330 @@
+@font-face {
+    font-family: main;
+    src: url(/lesson7homework/fonts/kenyan\ coffee\ rg.otf)
+}
+@font-face {
+    font-family: third;
+    src: url(/lesson7homework/fonts/Caveat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: second;
+    src: url(/lesson7homework/fonts/kenyan\ coffee\ bd.otf);
+}
+html {
+    display: flex;
+    justify-content: center;
+}
+header {
+    width: 1000px;
+    top:0px;
+    position:sticky;
+
+}
+
+.nav1 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: main;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+.nav1 {
+     background-color: rgb(231, 204, 34);
+    height: 60px;
+   display: flex;
+   justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
+   
+    
+}
+.nav1 a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(243, 243, 21);
+}
+main {
+    background-color: rgb(0, 0, 0);
+    width: 1000px;
+    padding-top: 20px;
+}
+
+p {
+    color:rgb(230, 230, 56);
+    font-family: main;
+    font-size: 20px;
+
+}
+h4 {
+    color:rgb(230, 230, 56);
+    font-family:second;
+    font-size: 25px;
+
+}
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+.firstdiv {
+    width: 450px;
+    margin-right:5px;
+   
+}
+.seconddiv {
+    width: 450px;
+    margin-left:5px;
+  
+}
+.seconddiv img {
+    border-radius: 5px;
+    width: 450px;
+    height: 100px;
+}
+.table1 {
+    background-color: black;
+    border: 1px dashed rgb(190, 5, 5);
+    color: rgb(231, 228, 62);
+    width: 350px;
+
+}
+.table1 th {
+    border: 1px dashed rgb(190, 5, 5);    
+    font-family: second;
+    background-color: rgb(61, 4, 4);
+}
+.table1 td {
+    border: 1px dashed rgb(190, 5, 5);
+        font-family: main;
+}
+.table1 td:hover {
+    background-color: rgb(61, 4, 4);
+    color:rgb(255, 239, 9);
+    font-family: second;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width:50px;
+    position: fixed;
+    cursor: pointer;
+    
+}
+.social img {
+    background-color: rgb(227, 227, 10);
+    border-radius: 15px;
+    margin:2px;
+
+}
+.social img:hover {
+background-color: rgb(255, 255, 81);
+border-radius: 1px;
+}
+.picturediv img {
+width: 380px;
+height: 150px;
+padding-bottom: 10px;
+border-radius: 5px;
+}
+.picturediv {
+    display: flex;
+    flex-direction: column;
+    
+}
+.thirddiv {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.thirddiv p {
+    margin-left: 50px;
+}
+#fire {
+    width: 450px;
+height: 170px;
+border-radius: 5px;
+margin-left: 60px;  
+}
+#check {
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(233, 233, 5);  
+    cursor:pointer;
+   
+}
+#check:hover {
+    background-color: rgb(172, 172, 6);
+}
+#check:active {
+    background-color: rgb(85, 85, 1);
+    color:beige;
+}
+#send {
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(54, 200, 6);  
+    cursor:pointer;
+    margin-left: 134px;
+}
+#send:hover {
+    background-color: rgb(1, 151, 1);
+}
+#send:active {
+    background-color: rgb(1, 114, 1);
+    color:beige;
+}
+#input1 {
+    width:250px;
+    height: 100px;
+    border-radius: 5px;
+    background-image: url("/lesson7homework/images/back.jpeg");
+    color:rgb(0, 0, 0);
+    font-family: second;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border:none;
+}
+#input1:focus {
+    background-image: url("/lesson7homework/images/back1.jpeg");
+}
+.reviewdiv {
+    margin-left:60px;
+    margin-top: 30px;
+    width:380px;
+    background-image: url("/lesson7homework/images/backgroujnd.jpeg");
+    border-radius: 10px;
+    height: 250px;
+    
+}
+main {
+    padding-bottom: 20px;
+}
+
+.innerdiv {
+    justify-content: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    bottom: 60px;
+
+}
+#profile {
+    width:70px;
+    height: 70px;
+    border-radius: 50px;;
+    position: relative;
+    left: 10px;
+    top: 10px;
+
+}
+#comment {
+    color: black;
+}
+.stardiv {
+    position: relative;
+    left: 100px;
+    bottom: 75px;
+}
+.reviewpic {
+    display: flex;
+}
+#killian {
+    width: 450px;
+    height:250px;
+    position: relative;
+    border-radius: 5px;
+    top:30px;
+    left:55px;
+}
+footer {
+    width: 1000px;
+    background-color: rgb(231, 204, 34);
+    height: 320px;
+}
+.footerdiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contacts {
+    position: relative;
+    width: 300px;
+}
+.news {
+    width:300px;
+}
+.links {
+    width: 300px;
+}
+h3 {
+    position: relative;
+    left: 60px;
+    font-family: main;
+    font-size: 30px;
+}
+.nav2 {
+    display: flex;
+    flex-direction: column;
+     
+ }
+ .nav2 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: main;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+    position: relative;
+    left:90px;
+ }
+.news input {
+    width:250px;
+    height: 30px;
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    font-family: second;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border:none;
+    position: relative;
+    top:50px;
+    
+}
+.news input:focus {
+    background-color: rgb(246, 238, 133);
+    
+}
+
+.news button {
+    position: relative;
+    left:40px;
+    top:120px;
+    padding: 5px 20px 5px 20px;
+    border: solid 2px black;
+    border-radius: 15px;
+    background-color: rgb(200, 200, 37);
+    cursor: pointer;
+  
+}
+.news button:hover {
+    background-color: yellow;
+}
+.news button:focus {
+    background-color: rgb(219, 219, 23);
+    color: rgb(251, 241, 241);
+
+}
+.contacts p {
+    color: black;
+    margin-top: 50px;
+}
+
