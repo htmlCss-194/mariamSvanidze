@@ -1,0 +1,271 @@
+@font-face {
+    font-family: Termina;
+    src: url("/fonts/TerminaTest-Light.otf");
+}
+@font-face {
+    font-family: Terminabold;
+    src: url("/fonts/TerminaTest-Bold.otf");
+}
+body {
+    width: 1440px;
+
+margin: 0 auto;
+}
+main {
+    width: 1440px;
+    height: 2920px;
+}
+.headerdiv p {
+    color: #000;
+font-family: Termina;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 46px;
+}
+.firstnav {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstnav a {
+    color: #000;
+    text-decoration: none;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.theme {
+    width: 1440px;
+    height: 206px;
+    flex-shrink: 0;
+    background: #F3F3F3;
+}
+.themenav  a{
+    color: #000;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+text-decoration: none;
+}
+.themenav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 407px;
+   padding-right: 406px;
+    padding-top: 30px;
+}
+h1 {
+    color: #000;
+text-align: center;
+font-family: Terminabold;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+padding-top: 105px;
+}
+.biography {
+    width: 617px;
+    height: 569px;
+    flex-shrink: 0;
+}
+.biography h3 {
+    color: #000;
+    font-family: Terminabold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+.biography h2 {
+    color: #000;
+font-family: Terminabold;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+}
+.biography p {
+    color: #000;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.cv {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 44px;
+    margin-top: 85px;
+}
+#symbol {
+    position: relative;
+    left: 610px;
+    bottom: 105px;
+    border-radius: 60px;
+    background: #C4C4C4;
+width: 40px;
+height: 40px;
+flex-shrink: 0;
+padding: 20px;
+}
+.experiences {
+    width: 1440px;
+height: 436px;
+flex-shrink: 0;
+background: #F3F3F3;
+margin-top: 90px;
+}
+.experiences h2 {
+    color: #000;
+text-align: center;
+
+font-family: Terminabold;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; 
+padding-top: 67px;
+}
+.dates1 p{
+    color: #000;
+    font-family: Termina;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-right: 31px;
+}
+.work1 {
+    width: 454px;
+    height: 167px;
+    flex-shrink: 0;
+    color: #000;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.experiences1 {
+    display: flex;
+}
+.dates2 p {
+    color: #000;
+text-align: right;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+margin-right: 31px;
+}
+.work2 p{
+    width: 459px;
+
+flex-shrink: 0;
+color: #000;
+
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+.experiences2 {
+    display: flex;
+}
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 46px;
+    padding-right: 44px;
+    padding-top: 60px;
+}
+#education {
+    color: #000;
+text-align: center;
+
+font-family: Terminabold;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+margin-top: 149px;
+}
+.collage1 h4 {
+    color: #000;
+font-family: Terminabold;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+}
+.collage1 p {
+    color: #000;
+font-family: Termina;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.collage {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 48px;
+    margin-right: 46px;
+    margin-top: 119px;
+}
+.contactme {
+    width: 1440px;
+height: 315px;
+flex-shrink: 0;
+background: #F3F3F3;
+margin-top: 119px;
+}
+.contactme h2 {
+    color: #000;
+text-align: center;
+font-family: Terminabold;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; 
+padding-top: 62px;
+}
+.logos img {
+    width: 36px;
+height: 36px;
+flex-shrink: 0;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 386px;
+    padding-right: 387px;
+    padding-top: 88px;
+}
+footer {
+ height: 60px;
+}
+footer p {
+    color: #000;
+font-family: Termina;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

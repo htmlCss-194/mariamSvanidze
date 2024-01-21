@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Termina;
+    src: url("/fonts/TerminaTest-Light.otf");
+}
+@font-face {
+    font-family: Terminabold;
+    src: url("/fonts/TerminaTest-Bold.otf");
+}
+body {
+    width: 1440px;
+
+margin: 0 auto;
+}
+main {
+    height: 1260px;
+}
+.headerdiv p {
+    color: #000;
+font-family: Termina;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 46px;
+}
+.firstnav {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstnav a {
+    color: #000;
+    text-decoration: none;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.theme {
+    width: 1440px;
+    height: 206px;
+    flex-shrink: 0;
+    background: #F3F3F3;
+}
+.theme h3 {
+    color: #000;
+text-align: center;
+font-family: Terminabold;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+padding-top: 100px;
+}
+.maindiv {
+    width: 849px;
+    height: 864px;
+    flex-shrink: 0;
+    position: relative;
+    left: 308px;
+    top: 93;
+}
+.maindiv p {
+    color: #000;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+
+
+flex-shrink: 0;
+}
+.maindiv h3 {
+    color: #000;
+font-family: Terminabold;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+}
+button {
+    color: #000;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: inline-flex;
+padding: 20px 29px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 34.5px;
+border: 1px solid #000;
+background-color: white;
+}
+.lastdiv {
+    display: flex;
+    justify-content: space-between;
+    width: 462px;
+    margin-left: 308px;
+}
+
+footer {
+    height: 60px;
+
+}
+footer p {
+    color: #000;
+font-family: Termina;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 46px;
+}
