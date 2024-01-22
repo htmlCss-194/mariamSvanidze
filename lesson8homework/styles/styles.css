@@ -1,0 +1,348 @@
+@font-face {
+    font-family: font;
+    src: url("/lesson8homework/fonts/CormorantGaramond-Regular.ttf");
+}
+html {
+ 
+    display: flex;
+    justify-content: center;
+}
+body {
+    width: 1200px;
+}
+
+
+header {
+    background-image: url("/lesson8homework/pictures/sky.jpeg");
+    height: 400px;
+   
+    
+}
+h2 {
+ 
+    font-family: font;
+    font-size: 45px;
+    color: rgb(25, 2, 46);
+    text-shadow: 2px 2px  rgb(177, 191, 249);
+    text-align: center;
+    padding-top: 20px;
+}
+.headernav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px 0 300px;
+}
+.headernav a {
+    font-family: font;
+    text-decoration: none;
+    color: rgb(68, 6, 126);
+    font-weight: bold;
+}
+.headerdivimg {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+.headerdivimg img {
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    
+    
+}
+.headerdivimg img:hover {
+    transition: ease-in-out 2s;
+    transform: skewX(20deg);
+    width:250px;
+    height: 250px;
+    border-radius: 100%;
+}
+main {
+background-image:url("/lesson8homework/pictures/silk.jpeg");
+height: 1770px;
+padding-top: 20px;
+}
+#animation {
+    height: 20px;
+    background-color: rgb(246, 220, 249);
+    color: rgb(54, 7, 98);
+    font-family: font;
+    animation-name: quoteanimation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    position: relative;
+    width:515px;
+    border-radius: 10px;
+    
+}
+@keyframes quoteanimation {
+    0% {
+        left: 0px;
+    }
+   50% {
+       left:685px;
+       right: 0;
+    }
+    100% {
+       left:0;
+       right:0;
+    }  
+}
+.imgdiv1  {
+    display: flex;
+    justify-content: space-evenly;
+    
+  
+}
+.imgdiv1 img {
+    width:350px;
+    height:350px;
+    border-radius: 10px;
+    filter:blur(2px);
+}
+.imgdiv2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgdiv2 img {
+    width: 350px;
+    height:350px;
+    border-radius: 10px;
+    filter:blur(2px);
+}
+.imgdiv1 img:hover {
+    filter: blur(0);
+}
+.imgdiv2 img:hover {
+    filter: blur(0);
+}
+.list {
+    margin-top: 30px;
+    font-family: font;
+    
+    
+}
+.list table {
+    border: dashed 2px rgb(177, 100, 171);
+    color:rgb(14, 14, 135);
+    font-weight: bolder;
+    text-align: center;
+}
+.list th {
+    border: dashed 2px rgb(177, 100, 171);
+    background-image: url("/lesson8homework/pictures/silkback.jpeg");
+}
+.list td {
+    border: dashed 2px rgb(177, 100, 171);
+    background-image: url("/lesson8homework/pictures/silkback2.jpeg");
+    padding: 10px;
+}
+.mainlistdiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+.animationcenter {
+    display: flex;
+    justify-content: space-around;
+}
+.animationdiv {
+    animation-name: imganimation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    top:20px;
+    
+}
+@keyframes imganimation {
+    0% {
+        background-image: url("/lesson8homework/pictures/animation1.png");
+
+    }
+    50% {
+        background-image: url("/lesson8homework/pictures/animation3.jpeg");
+    }
+    100% {
+        background-image: url("/lesson8homework/pictures/aest2.jpeg");
+    }
+}
+.animationdiv2 {
+    animation-name: imganimation2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    
+    top:20px;
+}
+@keyframes imganimation2 {
+    0% {
+        background-image: url("/lesson8homework/pictures/imgslide1.jpeg");
+
+    }
+    50% {
+        background-image: url("/lesson8homework/pictures/imgslide2.jpeg");
+    }
+    100% {
+        background-image: url("/lesson8homework/pictures/imgslide3.jpeg");
+    }
+}
+.animationdiv3 {
+    animation-name: imganimation3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    
+    top:20px;
+}
+@keyframes imganimation3 {
+    0% {
+        background-image: url("/lesson8homework/pictures/slide1.jpeg");
+
+    }
+    50% {
+        background-image: url("/lesson8homework/pictures/slide2.jpeg");
+    }
+    100% {
+        background-image: url("/lesson8homework/pictures/slide3.jpeg");
+    }
+}
+.audio {
+    position: relative;
+    top: 65px;
+}
+audio {
+    height: 40px;
+    width: 1200px;
+   
+}
+
+.footer1 {
+    background-image: url("/lesson8homework/pictures/footer1.jpg");
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.line {
+  width: 40px;
+   height: 3px;
+   background-color: rgb(58, 1, 112);
+}
+.innerfooter1 img {
+    width: 30px;
+}
+.innerfooter1 h1 {
+    font-family: font;
+    font-size: 30px;
+    color: rgb(25, 2, 46);
+    font-weight: bold;
+  
+}
+.innerfooter1 {
+    display: flex;
+}
+.footerlogos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+}
+.footerlogos img {
+    width:30px;
+    cursor: pointer;
+}
+.footer2 {
+    display: flex;
+    background-image: url("/lesson8homework/pictures/footerback.jpg");
+    justify-content: space-evenly;
+    height: 220px;
+
+}
+.footernav {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.footer2 h1 {
+    font-family: font;
+    color:rgb(7, 7, 87);
+}
+.footernav a {
+    font-family: font;
+    text-decoration: none;
+    color: rgb(50, 6, 92);
+}
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.subscribe input {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: solid rgb(51, 4, 51);
+    background-color: rgb(243, 228, 237);
+    font-family: font;
+    border-radius: 5px;
+}
+.subscribe input:focus {
+    color: rgb(25, 2, 44);
+    background-color: rgb(215, 215, 251);
+}
+.subscribe button{
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(207, 189, 242);
+    font-family: font;
+    color: rgb(6, 6, 105);
+}
+.subscribe button:hover {
+    background-color: rgb(186, 144, 226);
+}
+.subscribe button:active {
+    background-color: rgb(156, 78, 228);
+}
+.footer3 {
+    background-image: url("/lesson8homework/pictures/footer3.jpeg");
+    height: 50px;
+    padding-top: 20px;
+}
+.footer3 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+
+}
+.footer3 p {
+    font-family: font;
+    color: rgb(32, 3, 59);
+    
+    
+}
+.footer3nav {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding-top: 15px;
+  
+}
+.footer3nav a {
+    color:  rgb(32, 3, 59);
+    text-decoration: none;
+
+}
