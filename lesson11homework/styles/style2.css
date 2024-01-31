@@ -1,21 +1,16 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
+
 
 @font-face {
     font-family: font;
-    src: url("/fonts/Quicksand-VariableFont_wght.ttf");
+    src: url("/mariamsvanidze/lesson11homework/fonts/Quicksand-VariableFont_wght.ttf");
 }
 @font-face {
     font-family: boldfont;
-    src: url("/fonts/Cabin-VariableFont_wdth\,wght.ttf");
+    src: url("/mariamsvanidze/lesson11homework/fonts/Cabin-VariableFont_wdth\,wght.ttf");
 }
 @font-face {
     font-family: lostfont;
-    src: url("/fonts/Lost\ Saloon.ttf");
+    src: url("/mariamsvanidze/lesson11homework/fonts/Lost\ Saloon.ttf");
 }
 
 
@@ -43,37 +38,37 @@ body {
 }
 @-webkit-keyframes backgroundanimation {
     0% {
-        background-image: url("/images/headerimg1.jpeg") ;
+        background-image: url("/mariamsvanidze/lesson11homework/images/headerimg1.jpeg") ;
     }
    25% {
-    background-image: url("/images/headerimg2.jpeg");
+    background-image: url("/mariamsvanidze/lesson11homework/images/headerimg2.jpeg");
    }
    50% {
-    background-image: url("/images/headerimg3.jpeg");
+    background-image: url("/mariamsvanidze/lesson11homework/images/headerimg3.jpeg");
    }
    75% {
-    background-image: url("/images/headerimg4.jpeg");
+    background-image: url("/mariamsvanidze/lesson11homework/images/headerimg4.jpeg");
    }
    100% {
-    background-image: url("/images/headerimg5.jpeg");
+    background-image: url("/mariamsvanidze/lesson11homework/images/headerimg5.jpeg");
    }
     
 }
 @keyframes backgroundanimation {
     0% {
-        background-image: url("/images/headerimg1.jpeg") ;
+        background-image: url("/mariamsvanidze/lesson11homework/images/headerimg1.jpeg") ;
     }
    25% {
-    background-image: url("/images/headerimg2.jpeg");
+    background-image: url("/mariamsvanidze/lesson11homework/images/headerimg2.jpeg");
    }
    50% {
-    background-image: url("/images/headerimg3.jpeg");
+    background-image: url("/mariamsvanidze/lesson11homework/images/headerimg3.jpeg");
    }
    75% {
-    background-image: url("/images/headerimg4.jpeg");
+    background-image: url("/mariamsvanidze/lesson11homework/images/headerimg4.jpeg");
    }
    100% {
-    background-image: url("/images/headerimg5.jpeg");
+    background-image: url("/mariamsvanidze/lesson11homework/images/headerimg5.jpeg");
    }
     
 }
@@ -356,9 +351,9 @@ margin-left: 10px;
     
 }
 .backgrounddiv {
-    background-image: url("/images/background.jpeg");
+    background-image: url("/mariamsvanidze/lesson11homework/images/background.jpeg");
     height: 2990px;
 }
 main {
-    background-image: url("/images/background.jpeg");
+    background-image: url("/mariamsvanidze/lesson11homework/images/background.jpeg");
 }
