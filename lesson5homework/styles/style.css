@@ -1,14 +1,14 @@
   @font-face {
     font-family: rammstein;
-    src: url("/lesson5homework/fonts/rammstein.ttf");
+    src: url("./fonts/rammstein.ttf");
   }
   @font-face {
     font-family: secondfont;
-    src: url("/lesson5homework/fonts/Silkscreen-Regular.ttf");
+    src: url("./fonts/Silkscreen-Regular.ttf");
   }
   @font-face {
     font-family: horror;
-    src: url("/lesson5homework/fonts/Creepster-Regular.ttf")
+    src: url("./fonts/Creepster-Regular.ttf")
   }
 
  html {
