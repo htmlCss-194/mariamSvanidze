@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Termina;
+    src: url("/fonts/TerminaTest-Light.otf");
+}
+@font-face {
+    font-family: Terminabold;
+    src: url("/fonts/TerminaTest-Bold.otf");
+}
+body {
+    width: 1440px;
+
+margin: 0 auto;
+}
+main {
+    width: 1440px;
+    height: 1550px;
+}
+.headerdiv p {
+    color: #000;
+font-family: Termina;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 46px;
+}
+.firstnav {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstnav a {
+    color: #000;
+    text-decoration: none;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.theme {
+    width: 1440px;
+    height: 206px;
+    flex-shrink: 0;
+    background: #F3F3F3;
+}
+.theme h3 {
+    color: #000;
+text-align: center;
+font-family: Terminabold;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+padding-top: 100px;
+}
+#portfolioid {
+    margin-top: 105px;
+    color: #000;
+text-align: center;
+font-family: Terminabold;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+}
+#date {
+    color: #C4C4C4;
+text-align: center;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.portfoliodiv {
+    width: 849px;
+height: 833px;
+margin: 0 auto;
+}
+.portfoliodiv p {
+    color: #000;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+.portfoliodiv h1 {
+    color: #000;
+font-family: Terminabold;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+}
+.list {
+    color: #000;
+    font-family: Termina;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+#button1 {
+    border-radius: 34.5px;
+background: #000;
+padding: 20px 29px;
+gap: 10px;
+color: #FFF;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+cursor: pointer;
+}
+#button2 {
+    color: #000;
+font-family: Termina;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 20px 29px;
+gap: 10px;
+border-radius: 34.5px;
+border: 1px solid #000;
+background-color: white;
+cursor: pointer;
+}
+.buttondiv {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 604px;
+    margin-left: 300px;
+    margin-top: 130px;
+
+}
+footer p {
+    color: #000;
+font-family: Termina;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
