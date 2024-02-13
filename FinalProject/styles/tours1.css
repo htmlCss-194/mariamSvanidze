@@ -1,0 +1,559 @@
+@font-face {
+    font-family: font;
+    src: url("/fonts/Montserrat-VariableFont_wght.ttf");
+}
+:root {
+    --normalFontColor: rgb(255, 255, 255);
+    --hoverTextColor: rgb(7, 0, 0);
+    --activeTextColor: rgb(21, 1, 1);
+    --whiteTextShadow: 2px 2px black;
+}
+body {
+    margin: 0 auto;
+    width: 1700px;
+    background-image: url(/images2/discountsback.jpeg);
+    background-size: cover;
+}
+header {
+    position: sticky;
+    top: 0; 
+    
+}
+
+.headermaindiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin-left: 50px;
+    
+}
+.companyname {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.companyname h2 {
+    color: var(--normalFontColor);
+    font-family: font;
+    font-size: 50px;
+    text-shadow: var(--whiteTextShadow);
+}
+.companyname a {
+    text-decoration: none;
+}
+
+.companyname p {
+    color:var(--normalFontColor);
+    font-family: font;
+    margin-left: 10px;
+    padding-top: 20px;
+    text-shadow: var(--whiteTextShadow);
+}
+.firstnav {
+    width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.firstnav a {
+    color: var(--normalFontColor);
+    font-family: font;
+    text-decoration: none;
+    font-size: 23px;
+    text-shadow: var(--whiteTextShadow);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+}
+.firstnav a:hover {
+ 
+   color:rgb(251, 251, 251);
+   text-shadow: 4px 4px  black;
+   
+}
+.firstnav a:active {
+
+    color:rgb(251, 251, 251);
+    text-shadow: 4px 4px 4px black;
+    
+}
+.toggle-button {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 30px;
+    height: 20px;
+   
+}
+.toggle-button:hover {
+    width: 35px;
+    height: 25px;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px black;
+            box-shadow: 2px 2px black;
+}
+.nextpage {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100px;
+   width: 100px;
+   margin: 0 auto;
+}
+.discountnav {
+  width: 300px;
+  margin: 0 auto;
+  
+
+}
+.discountnav a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: font;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+.discountnav a:hover {
+    text-shadow: 2px 2px 2px black;
+    color:rgb(6, 104, 28);
+
+
+
+}
+#mainDescription {
+    text-decoration: none;
+    font-size: 45px;
+    font-family: font;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    text-align: center;
+    text-transform: capitalize;
+}
+#maindescription:hover {
+   
+    text-shadow: 4px 4px black;
+}
+#mainDescriptionP {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: font;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+#mainDescriptionp:hover {
+    text-shadow: 4px 4px black;
+}
+
+.mainToursDiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+   margin-top: 80px;
+}
+.innertoursdiv {
+margin: 0 auto;
+width:1000px;
+background-image: url(/images2/alacati.jpeg);
+background-size: cover;
+border-radius: 10px;
+border: 2px solid rgb(255, 255, 255);
+}
+.citydiv {
+    border-radius: 20px;
+    width: 1000px;
+height: 600px;
+opacity: 0;
+
+
+}
+.citydiv:hover {
+    opacity: 100;
+}
+.citydiv a {
+    border: solid 5px white;
+    border-radius: 10px;
+    font-size: 50px;
+    font-family: font;
+    color: var(--normalFontColor);
+    text-align: center;
+   width: 700px;
+   padding: 100px 200px 100px 200px;
+  position: relative;
+  left:215px;
+  top: 270px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  text-shadow: 2px 2px black;
+  -webkit-box-shadow: 2px 2px black;
+          box-shadow: 2px 2px black;
+  -webkit-filter: none;
+          filter: none;
+
+
+
+}
+.firstName {
+    text-decoration: none;
+    font-size: 45px;
+    font-family: font;
+    color: rgb(253, 253, 253);
+    text-shadow: 2px 2px black;
+    margin-top: 50px;
+}
+.firstName:hover {
+    color: rgb(90, 3, 3);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.description1 {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: font;
+    color: rgb(232, 224, 224);
+    text-shadow: 2px 2px black;
+    margin-top: 50px;
+}
+.description1:hover {
+    color:rgb(146, 6, 6);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+}
+.citylinediv {
+    width: 500px;
+    height: 8px;
+    background-color: white;
+    -webkit-box-shadow: 2px 2px black;
+            box-shadow: 2px 2px black;
+    margin:0 auto;
+    margin-top: 40px;
+}
+.citylinediv:hover {
+    -webkit-box-shadow: 4px 4px black;
+            box-shadow: 4px 4px black;
+}
+.innertoursdiv1 {
+    margin: 0 auto;
+    width:1000px;
+    background-image: url(/images2/antalya.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    }
+
+    .innertoursdiv2 {
+        margin: 0 auto;
+        width:1000px;
+        background-image: url(/images2/dubai.jpeg);
+        background-size: cover;
+        border-radius: 10px;
+        border: 2px solid rgb(255, 255, 255);
+        }
+
+
+        .innertoursdiv3 {
+            margin: 0 auto;
+            width:1000px;
+            background-image: url(/images2/berlin.jpeg);
+            background-size: cover;
+            border-radius: 10px;
+            border: 2px solid rgb(255, 255, 255);
+            }
+
+
+            .innertoursdiv4 {
+                margin: 0 auto;
+                width:1000px;
+                background-image: url(/images2/rhodes.jpeg);
+                background-size: cover;
+                border-radius: 10px;
+                border: 2px solid rgb(255, 255, 255);
+                }
+
+
+                .innertoursdiv5 {
+                    margin: 0 auto;
+                    width:1000px;
+                    background-image: url(/images2/osli.jpeg);
+                    background-size: cover;
+                    border-radius: 10px;
+                    border: 2px solid rgb(255, 255, 255);
+                    }
+
+
+                    .innertoursdiv6 {
+                        margin: 0 auto;
+                        width:1000px;
+                        background-image: url(/images2/zanzibar.jpeg);
+                        background-size: cover;
+                        border-radius: 10px;
+                        border: 2px solid rgb(255, 255, 255);
+                        }
+
+
+                        .innertoursdiv7 {
+                            margin: 0 auto;
+                            width:1000px;
+                            background-image: url(/images2/\ crete.jpeg);
+                            background-size: cover;
+                            border-radius: 10px;
+                            border: 2px solid rgb(255, 255, 255);
+                            }
+
+
+                            .innertoursdiv8 {
+                                margin: 0 auto;
+                                width:1000px;
+                                background-image: url(/images2/madrid.jpeg);
+                                background-size: cover;
+                                border-radius: 10px;
+                                border: 2px solid rgb(255, 255, 255);
+                                }
+
+
+                                .innertoursdiv9 {
+                                    margin: 0 auto;
+                                    width:1000px;
+                                    background-image: url(/images2/catania.jpeg);
+                                    background-size: cover;
+                                    border-radius: 10px;
+                                    border: 2px solid rgb(255, 255, 255);
+                  
+                  }
+
+
+#arrow1 img {
+    width:25px;
+    position: relative;
+    top:6;
+    left: 10;
+    
+}
+#arrow2 img {
+    width:25px;
+    position: relative;
+    top:6;
+    right: 10;
+    
+
+}
+.companyname a {
+    text-decoration: none;
+}
+.nextpage a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: font;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+  
+}
+footer  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100px;
+    
+}
+footer p {
+    font-family: font;
+    color: var(--normalFontColor);
+    text-shadow: 2px 2px black;
+}
+footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+footer div img {
+width: 20px;
+height: 20px;
+padding: 8px;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+gap: 10px;
+-ms-flex-negative: 0;
+    flex-shrink: 0;
+border-radius: 39px;
+background: #FFF;
+margin-left: 10px;
+cursor: pointer;
+}
+footer p:hover::after {
+    content: " All Rights Reserved"
+}
+
+
+@media only screen and (max-width: 767px) {
+    .toggle-button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      
+    }
+    .firstnav {
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+       max-width: 100%;
+        margin-left: 20px;
+       
+        
+    }
+    .headermaindiv {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+    .firstnav a {
+        width: 100%;
+     
+    }
+    body {
+     max-width: 100%;
+    background-position: center ;
+    height: 100%;
+     
+    }
+ 
+    footer {  
+        max-width: 100%;
+       
+    }
+
+}
+  
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .toggle-button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      
+    }
+    .firstnav {
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+       max-width: 100%;
+        margin-left: 20px;
+        margin: 0 auto;
+        
+    }
+    .headermaindiv {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+    .firstnav a {
+        width: 100%;
+     
+    }
+    body {
+     max-width: 100%;
+     background-size: cover;
+     background-position: center ;
+
+     
+    }
+ 
+    footer {  
+        max-width: 100%;
+       
+    }
+
+ 
+  }
+
+  
+  @media only screen and (min-width: 1024px) and (max-width:1440px) {
+ body {
+    margin: 0 auto;
+    max-width: 100%;
+    background-size: cover;
+ }
+ main {
+    max-width: 100%;
+ }
+ footer {
+    max-width: 100%;
+ }
+  }
+
+
+
+  @media only screen and (min-width:1441px) and (max-width:2160px) {
+    body {
+        max-width: 100%;
+     }
+     main  {
+        max-width: 100%
+     }
+     footer {
+        max-width: 100%;
+     }
+    }
+                

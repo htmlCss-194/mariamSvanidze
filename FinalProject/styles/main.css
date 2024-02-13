@@ -1,0 +1,520 @@
+@font-face {
+    font-family: font;
+    src: url("/fonts/Montserrat-VariableFont_wght.ttf");
+}
+:root {
+    --normalFontColor: rgb(255, 255, 255);
+    --hoverTextColor: rgb(7, 0, 0);
+    --activeTextColor: rgb(21, 1, 1);
+    --whiteTextShadow: 2px 2px black;
+}
+
+.backgroundanimation {
+    -webkit-animation-name: backgroundanimation;
+            animation-name: backgroundanimation;
+    -webkit-animation-duration: 60s;
+            animation-duration: 60s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    width: 1700px;
+    height: 950px;
+    position: relative;
+}
+@-webkit-keyframes backgroundanimation {
+    0% {
+        background-image: url("/images/background1.jpeg");
+        background-size:  cover;
+    }
+    10% {
+        background-image: url("/images/background4.jpeg");
+        background-size:  cover;
+    }
+    20% {
+        background-image: url("/images/woods.jpeg");
+        background-size:  cover;
+    }
+    30% {
+        background-image: url("/images/giraffes.jpeg");
+        background-size:  cover;
+    }
+    40% {
+        background-image: url("/images/neuschwanstein.jpeg");
+        background-size:  cover;
+    }
+    50% {
+        background-image: url("/images/italy.jpeg");
+        background-size: cover;
+    }
+    60% {
+        background-image: url("/images/japan.jpeg");
+        background-size: cover;
+    }
+    70% {
+        background-image: url("/images/buda.jpeg");
+        background-size:  cover;
+    }
+
+    80% {
+        background-image: url("/images/buda.jpeg");
+        background-size:  cover;
+    }
+    100% {
+        background-image:url("/images/bridhe.jpeg");
+        background-size:  cover;
+    }
+
+    
+    }
+@keyframes backgroundanimation {
+    0% {
+        background-image: url("/images/background1.jpeg");
+        background-size:  cover;
+    }
+    10% {
+        background-image: url("/images/background4.jpeg");
+        background-size:  cover;
+    }
+    20% {
+        background-image: url("/images/woods.jpeg");
+        background-size:  cover;
+    }
+    30% {
+        background-image: url("/images/giraffes.jpeg");
+        background-size:  cover;
+    }
+    40% {
+        background-image: url("/images/neuschwanstein.jpeg");
+        background-size:  cover;
+    }
+    50% {
+        background-image: url("/images/italy.jpeg");
+        background-size: cover;
+    }
+    60% {
+        background-image: url("/images/japan.jpeg");
+        background-size: cover;
+    }
+    70% {
+        background-image: url("/images/buda.jpeg");
+        background-size:  cover;
+    }
+
+    80% {
+        background-image: url("/images/buda.jpeg");
+        background-size:  cover;
+    }
+    100% {
+        background-image:url("/images/bridhe.jpeg");
+        background-size:  cover;
+    }
+
+    
+    }
+ 
+   
+    body {
+        margin: 0 auto;
+        width: 1700px;
+    }
+
+    .headermaindiv {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 1600px;
+        margin-left: 50px;
+    }
+    .companyname {
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .companyname h2 {
+        color: var(--normalFontColor);
+        font-family: font;
+        font-size: 50px;
+        text-shadow: var(--whiteTextShadow);
+    }
+    .companyname a {
+        text-decoration: none;
+    }
+    
+    .companyname p {
+        color:var(--normalFontColor);
+        font-family: font;
+        margin-left: 10px;
+        padding-top: 20px;
+        text-shadow: var(--whiteTextShadow);
+    }
+    .firstnav {
+        width: 600px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .firstnav a {
+        color: var(--normalFontColor);
+        font-family: font;
+        text-decoration: none;
+        font-size: 23px;
+        text-shadow: var(--whiteTextShadow);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        
+    }
+    .firstnav a:hover {
+     
+       color:rgb(251, 251, 251);
+       text-shadow: 4px 4px  black;
+       
+    }
+    .firstnav a:active {
+    
+        color:rgb(251, 251, 251);
+        text-shadow: 4px 4px 4px black;
+        
+    }
+    .toggle-button {
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 30px;
+        height: 20px;
+       
+    }
+    .toggle-button:hover {
+        width: 35px;
+        height: 25px;
+    }
+    .toggle-button .bar {
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+        -webkit-box-shadow: 2px 2px black;
+                box-shadow: 2px 2px black;
+    }
+    
+
+
+
+
+
+
+
+
+
+   .firstmaindiv {
+   margin-left: 100px;
+   margin-top: 50px;
+
+   }
+.line {
+width: 200px;
+height: 10px;
+background-color: rgb(255, 255, 255);
+-webkit-box-shadow: 2px 2px black;
+        box-shadow: 2px 2px black;
+}
+.firstmaindiv h3 {
+    color: var(--normalFontColor);
+    font-family: font;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+.firstmaindiv p {
+    color: var(--normalFontColor);
+    font-family: font;
+    font-size:20px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px black;
+}
+.firstmaindiv h4 {
+    color: var(--normalFontColor);
+    font-family: font;
+    font-size:20px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px black;
+}
+.firstmaindiv h4:hover {
+    -webkit-transition: ease-in-out 1s;
+    -o-transition: ease-in-out 1s;
+    transition: ease-in-out 1s;
+    color:rgb(15, 2, 48);
+    text-shadow: none;
+    
+}
+.registrationdiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.registrationdiv a {
+    margin-left: 20px;
+    padding: 5px 10px 5px 10px;
+    border:none;
+    border-radius: 50px;
+    font-family: font;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px black;
+            box-shadow: 2px 2px black;
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    background-color: white;
+}
+.registrationdiv a:active {
+    background-color: rgb(13, 47, 14);
+    color: var(--normalFontColor);
+}
+.registrationdiv a:hover {
+    padding: 8px 12px 8px 12px;
+}
+label {
+    color:var(--normalFontColor);
+    font-family: font;
+    font-size:20px;
+    text-shadow: 2px 2px black;
+}
+#username {
+    font-family: font;
+    color: var(--normalFontColor);
+    border-radius: 50px;
+    border: var(--normalFontColor);
+    margin-left: 10px;
+    background: none;
+    border: solid 1px rgb(255, 255, 255);
+  
+}
+#username:focus {
+    background-color: rgb(255, 255, 255);
+    color: var(--activeTextColor);
+    
+}
+#password {
+    font-family: font;
+    color:var(--normalFontColor);
+    border-radius: 50px;
+    border: solid 1px rgb(242, 232, 232);
+    margin-left: 17px;
+    background:none;
+}
+#password:focus {
+    background-color: rgb(255, 255, 255);
+    color: var(--activeTextColor);
+}
+#inputbutton {
+   padding: 5px 10px 5px 10px;
+   border-radius: 50px;
+   border:solid 1px white;
+   background-color: rgb(48, 11, 11);
+   color: var(--normalFontColor);
+   margin-left: 210px;
+   cursor: pointer;
+   -webkit-box-shadow: 2px 2px black;
+           box-shadow: 2px 2px black;
+}
+#inputbutton:hover {
+   padding: 8px 12px 8px 12px;
+}
+#inputbutton:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+form {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.companyname a {
+    text-decoration: none;
+}
+footer  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 80px;
+}
+footer p {
+    font-family: font;
+    color: var(--normalFontColor);
+}
+footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+footer div img {
+width: 20px;
+height: 20px;
+padding: 8px;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+gap: 10px;
+-ms-flex-negative: 0;
+    flex-shrink: 0;
+border-radius: 39px;
+background: #FFF;
+margin-left: 10px;
+cursor: pointer;
+}
+footer p:hover::after {
+    content: " All Rights Reserved"
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .toggle-button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      
+    }
+    .firstnav {
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+       max-width: 100%;
+
+        
+    }
+    .headermaindiv {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+    .firstnav a {
+        width: 100%;
+     
+    }
+    body {
+     max-width: 100%;
+     
+    }
+ 
+    footer {  
+        max-width: 100%;
+       
+    }
+    .backgroundanimation {
+        max-width: 100%;
+        background-size: cover;
+        height: 100%;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .toggle-button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      
+    }
+    .firstnav {
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        
+    }
+    .headermaindiv {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+    .firstnav a {
+        width: 100%;
+     
+    }
+    body {
+     max-width: 100%;
+    }
+ 
+    footer {  
+        max-width: 100%;
+       
+    }
+    .backgroundanimation {
+        max-width: 100%;
+        background-size: cover;
+        height: 100%;
+    }
+  }
+  @media only screen and (min-width: 1024px) and (max-width:1440px) {
+    .backgroundanimation {
+        max-width: 100%;
+        background-size: cover;
+        height: 100%;
+
+    }
+   
+    body {
+        max-width: 100%;
+    }
+    footer {
+        max-width: 100%;
+    }
+  }
+  @media only screen and (min-width:1441px) and (max-width:2160px) {
+    .backgroundanimation {
+        max-width: 100%;
+        background-size: cover;
+    }
+   
+    body {
+        max-width: 100%;
+    }
+    footer {
+        max-width: 100%;
+    }
+  }
